@@ -4,7 +4,7 @@ const User = require('./model/user')
 const Task = require('./model/task')
 
 const app = express()
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 1000
 
 app.use(express.json())
 app.post('/users', (req, res) => {
